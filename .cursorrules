@@ -1,0 +1,37 @@
+// Next.js App Router 规则
+
+// Next.js App Router 最佳实践
+const nextjsAppRouterBestPractices = [
+  "默认使用服务器组件",
+  "仅在必要时实现客户端组件",
+  "使用新的基于文件的路由系统",
+  "使用 layout.js 实现共享布局",
+  "使用 loading.js 实现加载状态",
+  "使用 error.js 进行错误处理",
+  "使用路由处理程序实现 API 路由",
+];
+
+// 文件夹结构
+const folderStructure = `
+src/
+  app/
+    layout.tsx
+    page.tsx
+  components/
+  lib/
+  styles/
+public/
+`;
+
+// 附加说明
+const additionalInstructions = `
+1. 使用 TypeScript 确保类型安全
+2. 实现适当的元数据以优化 SEO
+3. 使用 Next.js Image 组件优化图片
+4. 使用 CSS Modules 或 Tailwind CSS 进行样式设计
+5. 实现适当的错误边界
+6. 遵循 Next.js 特殊文件的命名约定
+7. 使用环境变量进行配置
+8. 引入 Cloudflare Pages 相关的类型和工具
+9. 保持项目的整体风格一致
+`;
